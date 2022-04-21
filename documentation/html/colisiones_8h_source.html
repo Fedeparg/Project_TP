@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kind of... Asteroids?: Fichero Fuente colisiones.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kind of... Asteroids?
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">colisiones.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="colisiones_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef COLISIONES_H_INCLUDED</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define COLISIONES_H_INCLUDED</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="bala_8h.html">bala.h</a>&quot;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="enemigo_8h.html">enemigo.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="listabalas_8h.html">listabalas.h</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="listaenemigos_8h.html">listaenemigos.h</a>&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="personaje_8h.html">personaje.h</a>&quot;</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">int</span> <a class="code" href="colisiones_8h.html#aa3dce3e6a370a86bded995dd3d93110a">Colision</a> (<span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> r1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y2, <span class="keywordtype">int</span> r2);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">int</span> <a class="code" href="colisiones_8h.html#a317cddeed9b500d0322048649813c74a">Colision_Personajeenemigo</a> (<a class="code" href="struct_personaje_rep.html">Personaje</a> p, <a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> <a class="code" href="colisiones_8h.html#ab76b90175b6cc479ebaa06fd2dbbda59">Colision_Personajeenemigos</a> (<a class="code" href="struct_personaje_rep.html">Personaje</a> p, <a class="code" href="struct_listaenemigos_rep.html">Listaenemigos</a> le);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">int</span> <a class="code" href="colisiones_8h.html#aafc27dc1b8d15fd7d734432aad78c838">Colision_BalaEnemigo</a> (<a class="code" href="struct_bala_rep.html">Bala</a> b, <a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">void</span> <a class="code" href="colisiones_8h.html#abe2e95b2582d865ef8abf94e419f073b">Colision_BalasEnemigos</a> (<a class="code" href="struct_listabalas_rep.html">Listabalas</a> lb, <a class="code" href="struct_listaenemigos_rep.html">Listaenemigos</a> le);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif // COLISIONES_H_INCLUDED</span></div><div class="ttc" id="listabalas_8h_html"><div class="ttname"><a href="listabalas_8h.html">listabalas.h</a></div><div class="ttdoc">Permite controlar listas en las que se encuentren elementos del tipo Bala. </div></div>
+<div class="ttc" id="colisiones_8h_html_ab76b90175b6cc479ebaa06fd2dbbda59"><div class="ttname"><a href="colisiones_8h.html#ab76b90175b6cc479ebaa06fd2dbbda59">Colision_Personajeenemigos</a></div><div class="ttdeci">void Colision_Personajeenemigos(Personaje p, Listaenemigos le)</div><div class="ttdoc">Comprueba la colision entre el personaje y toda una lista de enemigos. </div><div class="ttdef"><b>Definition:</b> colisiones.c:19</div></div>
+<div class="ttc" id="listaenemigos_8h_html"><div class="ttname"><a href="listaenemigos_8h.html">listaenemigos.h</a></div><div class="ttdoc">Permite controlar listas en las que se encuentren elementos del tipo Enemigo. </div></div>
+<div class="ttc" id="colisiones_8h_html_aafc27dc1b8d15fd7d734432aad78c838"><div class="ttname"><a href="colisiones_8h.html#aafc27dc1b8d15fd7d734432aad78c838">Colision_BalaEnemigo</a></div><div class="ttdeci">int Colision_BalaEnemigo(Bala b, Enemigo e)</div><div class="ttdoc">Comprueba la colision entre una bala y un enemigo. </div><div class="ttdef"><b>Definition:</b> colisiones.c:34</div></div>
+<div class="ttc" id="colisiones_8h_html_abe2e95b2582d865ef8abf94e419f073b"><div class="ttname"><a href="colisiones_8h.html#abe2e95b2582d865ef8abf94e419f073b">Colision_BalasEnemigos</a></div><div class="ttdeci">void Colision_BalasEnemigos(Listabalas lb, Listaenemigos le)</div><div class="ttdoc">Comprueba la colision entre la lista de balas y la de enemigos. </div><div class="ttdef"><b>Definition:</b> colisiones.c:38</div></div>
+<div class="ttc" id="struct_bala_rep_html"><div class="ttname"><a href="struct_bala_rep.html">BalaRep</a></div><div class="ttdef"><b>Definition:</b> bala.c:8</div></div>
+<div class="ttc" id="struct_enemigo_rep_html"><div class="ttname"><a href="struct_enemigo_rep.html">EnemigoRep</a></div><div class="ttdef"><b>Definition:</b> enemigo.c:8</div></div>
+<div class="ttc" id="personaje_8h_html"><div class="ttname"><a href="personaje_8h.html">personaje.h</a></div><div class="ttdoc">Permite controlar listas en las que se encuentren elementos del tipo Bala. </div></div>
+<div class="ttc" id="struct_personaje_rep_html"><div class="ttname"><a href="struct_personaje_rep.html">PersonajeRep</a></div><div class="ttdef"><b>Definition:</b> personaje.c:8</div></div>
+<div class="ttc" id="enemigo_8h_html"><div class="ttname"><a href="enemigo_8h.html">enemigo.h</a></div><div class="ttdoc">Permite genera, editar y eliminar elementos del tipo Enemigo. </div></div>
+<div class="ttc" id="struct_listaenemigos_rep_html"><div class="ttname"><a href="struct_listaenemigos_rep.html">ListaenemigosRep</a></div><div class="ttdef"><b>Definition:</b> listaenemigos.c:5</div></div>
+<div class="ttc" id="struct_listabalas_rep_html"><div class="ttname"><a href="struct_listabalas_rep.html">ListabalasRep</a></div><div class="ttdef"><b>Definition:</b> listabalas.c:7</div></div>
+<div class="ttc" id="colisiones_8h_html_a317cddeed9b500d0322048649813c74a"><div class="ttname"><a href="colisiones_8h.html#a317cddeed9b500d0322048649813c74a">Colision_Personajeenemigo</a></div><div class="ttdeci">int Colision_Personajeenemigo(Personaje p, Enemigo e)</div><div class="ttdoc">Comprueba la colision entre el personaje y un enemigo. </div><div class="ttdef"><b>Definition:</b> colisiones.c:15</div></div>
+<div class="ttc" id="bala_8h_html"><div class="ttname"><a href="bala_8h.html">bala.h</a></div><div class="ttdoc">Permite genera, editar y eliminar elementos del tipo Bala. </div></div>
+<div class="ttc" id="colisiones_8h_html_aa3dce3e6a370a86bded995dd3d93110a"><div class="ttname"><a href="colisiones_8h.html#aa3dce3e6a370a86bded995dd3d93110a">Colision</a></div><div class="ttdeci">int Colision(int x1, int y1, int r1, int x2, int y2, int r2)</div><div class="ttdoc">Se encarga de comprobar una colision generica entre dos elementos. </div><div class="ttdef"><b>Definition:</b> colisiones.c:9</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 16 de Mayo de 2017 15:01:15 para Kind of... Asteroids? por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

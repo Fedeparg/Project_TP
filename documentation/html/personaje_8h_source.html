@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kind of... Asteroids?: Fichero Fuente personaje.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kind of... Asteroids?
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">personaje.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="personaje_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PERSONAJE_H_INCLUDED</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PERSONAJE_H_INCLUDED</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">   10</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_personaje_rep.html">PersonajeRep</a> *<a class="code" href="personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;Personaje <a class="code" href="personaje_8h.html#a64281ca8aff6fe940308aa9cc5b7f573">Personaje_Crea</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> r, <span class="keywordtype">int</span> v);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">void</span> <a class="code" href="personaje_8h.html#ae5b4fc96ee8e40dfad796973aaa586f6">Personaje_Libera</a> (Personaje p);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="personaje_8h.html#aeafc7323f48ca0bac0523ffbcfa554ad">Personaje_Mueve</a> (Personaje p);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">void</span> <a class="code" href="personaje_8h.html#aaa31b646f666366d8398d3a8c1111b90">Personaje_Dibuja</a>(Personaje p);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">int</span> <a class="code" href="personaje_8h.html#af2c198700e4e479fa935741e5134a346">Personaje_getx</a>(Personaje p);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">int</span> <a class="code" href="personaje_8h.html#a87aade1fe2a12e26b02a9380d87e46ca">Personaje_gety</a>(Personaje p);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">int</span> <a class="code" href="personaje_8h.html#a14b8de829b48be126bad4f356bb87010">Personaje_getr</a>(Personaje p);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keywordtype">int</span> <a class="code" href="personaje_8h.html#ada7bab09f45f067c88085c26e0263a16">Personaje_getstate</a> (Personaje p);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif // PERSONAJE_H_INCLUDED</span></div><div class="ttc" id="personaje_8h_html_a64281ca8aff6fe940308aa9cc5b7f573"><div class="ttname"><a href="personaje_8h.html#a64281ca8aff6fe940308aa9cc5b7f573">Personaje_Crea</a></div><div class="ttdeci">Personaje Personaje_Crea(int x, int y, int r, int v)</div><div class="ttdoc">Genera un elemento del tipo Personaje. </div><div class="ttdef"><b>Definition:</b> personaje.c:13</div></div>
+<div class="ttc" id="personaje_8h_html_af2c198700e4e479fa935741e5134a346"><div class="ttname"><a href="personaje_8h.html#af2c198700e4e479fa935741e5134a346">Personaje_getx</a></div><div class="ttdeci">int Personaje_getx(Personaje p)</div><div class="ttdoc">Devuelve la posicion en el eje x del Personaje. </div><div class="ttdef"><b>Definition:</b> personaje.c:56</div></div>
+<div class="ttc" id="personaje_8h_html_aaa31b646f666366d8398d3a8c1111b90"><div class="ttname"><a href="personaje_8h.html#aaa31b646f666366d8398d3a8c1111b90">Personaje_Dibuja</a></div><div class="ttdeci">void Personaje_Dibuja(Personaje p)</div><div class="ttdoc">Dibuja el elemento Personaje por pantalla. </div><div class="ttdef"><b>Definition:</b> personaje.c:49</div></div>
+<div class="ttc" id="personaje_8h_html_a14b8de829b48be126bad4f356bb87010"><div class="ttname"><a href="personaje_8h.html#a14b8de829b48be126bad4f356bb87010">Personaje_getr</a></div><div class="ttdeci">int Personaje_getr(Personaje p)</div><div class="ttdoc">Devuelve el radio del Personaje. </div><div class="ttdef"><b>Definition:</b> personaje.c:66</div></div>
+<div class="ttc" id="struct_personaje_rep_html"><div class="ttname"><a href="struct_personaje_rep.html">PersonajeRep</a></div><div class="ttdef"><b>Definition:</b> personaje.c:8</div></div>
+<div class="ttc" id="personaje_8h_html_a9d07dc1d96da277fcf14dbfdbabed99e"><div class="ttname"><a href="personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a></div><div class="ttdeci">struct PersonajeRep * Personaje</div><div class="ttdoc">TDA Personaje. </div><div class="ttdef"><b>Definition:</b> personaje.h:10</div></div>
+<div class="ttc" id="personaje_8h_html_ae5b4fc96ee8e40dfad796973aaa586f6"><div class="ttname"><a href="personaje_8h.html#ae5b4fc96ee8e40dfad796973aaa586f6">Personaje_Libera</a></div><div class="ttdeci">void Personaje_Libera(Personaje p)</div><div class="ttdoc">Libera la memoria asignada al elemento del tipo Personaje. </div><div class="ttdef"><b>Definition:</b> personaje.c:24</div></div>
+<div class="ttc" id="personaje_8h_html_a87aade1fe2a12e26b02a9380d87e46ca"><div class="ttname"><a href="personaje_8h.html#a87aade1fe2a12e26b02a9380d87e46ca">Personaje_gety</a></div><div class="ttdeci">int Personaje_gety(Personaje p)</div><div class="ttdoc">Devuelve la posicion en el eje y del Personaje. </div><div class="ttdef"><b>Definition:</b> personaje.c:61</div></div>
+<div class="ttc" id="personaje_8h_html_ada7bab09f45f067c88085c26e0263a16"><div class="ttname"><a href="personaje_8h.html#ada7bab09f45f067c88085c26e0263a16">Personaje_getstate</a></div><div class="ttdeci">int Personaje_getstate(Personaje p)</div><div class="ttdoc">Devuelve el estado del personaje. 0 si no ha sido impactado por un enemigo. 1 si ha sido impactado...</div><div class="ttdef"><b>Definition:</b> personaje.c:71</div></div>
+<div class="ttc" id="personaje_8h_html_aeafc7323f48ca0bac0523ffbcfa554ad"><div class="ttname"><a href="personaje_8h.html#aeafc7323f48ca0bac0523ffbcfa554ad">Personaje_Mueve</a></div><div class="ttdeci">void Personaje_Mueve(Personaje p)</div><div class="ttdoc">Actualiza la posicion del elemento del tipo Personaje. </div><div class="ttdef"><b>Definition:</b> personaje.c:30</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 16 de Mayo de 2017 15:01:15 para Kind of... Asteroids? por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

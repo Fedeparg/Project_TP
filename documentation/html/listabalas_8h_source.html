@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kind of... Asteroids?: Fichero Fuente listabalas.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kind of... Asteroids?
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">listabalas.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="listabalas_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef LISTABALAS_H_INCLUDED</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define LISTABALAS_H_INCLUDED</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="bala_8h.html">bala.h</a>&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="listabalas_8h.html#a39db4de1ed0c5cb905694889ab42dea2">   11</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_listabalas_rep.html">ListabalasRep</a> *<a class="code" href="listabalas_8h.html#a39db4de1ed0c5cb905694889ab42dea2">Listabalas</a>;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;Listabalas <a class="code" href="listabalas_8h.html#ae86f7572b30c28753f56e5583552aa29">Lista_Balasgenera</a>();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listabalas_8h.html#a7f243766539074e140b510e29a127ac8">Lista_Balaslibera</a> (Listabalas l);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listabalas_8h.html#ae873e9a8450b021e5f6f5717be4b6620">Lista_Balainserta</a> (Listabalas l, <a class="code" href="struct_bala_rep.html">Bala</a> b);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;Listabalas <a class="code" href="listabalas_8h.html#aa1cca25adb2acdc00a5054242c9855da">Lista_Getbalasig</a> (Listabalas l);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<a class="code" href="struct_bala_rep.html">Bala</a> <a class="code" href="listabalas_8h.html#ab7cae58dfe1714c24533a972d34f0992">Lista_Getbala</a>(Listabalas l);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listabalas_8h.html#aa08d842797e43604f0487c6341578778">Lista_Balalimpia</a> (Listabalas l);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listabalas_8h.html#aa883123426c6686479a7d59831a1a6ea">Lista_Balaelimina</a> (Listabalas l);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listabalas_8h.html#abb0bfb3ed0d9d6f8285af8426efd6a6a">Dibuja_Listabalas</a> (Listabalas l);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listabalas_8h.html#a78153534c06cf3b1c2fced819eb9ea66">Mueve_Listabalas</a> (Listabalas l);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif // LISTABALAS_H_INCLUDED</span></div><div class="ttc" id="listabalas_8h_html_a7f243766539074e140b510e29a127ac8"><div class="ttname"><a href="listabalas_8h.html#a7f243766539074e140b510e29a127ac8">Lista_Balaslibera</a></div><div class="ttdeci">void Lista_Balaslibera(Listabalas l)</div><div class="ttdoc">Libera la memoria reservada para las balas. </div><div class="ttdef"><b>Definition:</b> listabalas.c:18</div></div>
+<div class="ttc" id="listabalas_8h_html_ab7cae58dfe1714c24533a972d34f0992"><div class="ttname"><a href="listabalas_8h.html#ab7cae58dfe1714c24533a972d34f0992">Lista_Getbala</a></div><div class="ttdeci">Bala Lista_Getbala(Listabalas l)</div><div class="ttdoc">Devuelve el elemento actual de la lista. </div><div class="ttdef"><b>Definition:</b> listabalas.c:39</div></div>
+<div class="ttc" id="listabalas_8h_html_ae873e9a8450b021e5f6f5717be4b6620"><div class="ttname"><a href="listabalas_8h.html#ae873e9a8450b021e5f6f5717be4b6620">Lista_Balainserta</a></div><div class="ttdeci">void Lista_Balainserta(Listabalas l, Bala b)</div><div class="ttdoc">Inserta un elemento en la lista. </div><div class="ttdef"><b>Definition:</b> listabalas.c:28</div></div>
+<div class="ttc" id="listabalas_8h_html_abb0bfb3ed0d9d6f8285af8426efd6a6a"><div class="ttname"><a href="listabalas_8h.html#abb0bfb3ed0d9d6f8285af8426efd6a6a">Dibuja_Listabalas</a></div><div class="ttdeci">void Dibuja_Listabalas(Listabalas l)</div><div class="ttdoc">Dibuja la lista de balas en la pantalla. </div><div class="ttdef"><b>Definition:</b> listabalas.c:67</div></div>
+<div class="ttc" id="listabalas_8h_html_aa08d842797e43604f0487c6341578778"><div class="ttname"><a href="listabalas_8h.html#aa08d842797e43604f0487c6341578778">Lista_Balalimpia</a></div><div class="ttdeci">void Lista_Balalimpia(Listabalas l)</div><div class="ttdoc">Elimina los elementos de la lista que se encuentren fuera de la pantalla, reduciendo asi el consumo d...</div><div class="ttdef"><b>Definition:</b> listabalas.c:43</div></div>
+<div class="ttc" id="listabalas_8h_html_aa1cca25adb2acdc00a5054242c9855da"><div class="ttname"><a href="listabalas_8h.html#aa1cca25adb2acdc00a5054242c9855da">Lista_Getbalasig</a></div><div class="ttdeci">Listabalas Lista_Getbalasig(Listabalas l)</div><div class="ttdoc">Obtiene la lista y avanza un elemento en ella. </div><div class="ttdef"><b>Definition:</b> listabalas.c:35</div></div>
+<div class="ttc" id="struct_bala_rep_html"><div class="ttname"><a href="struct_bala_rep.html">BalaRep</a></div><div class="ttdef"><b>Definition:</b> bala.c:8</div></div>
+<div class="ttc" id="listabalas_8h_html_ae86f7572b30c28753f56e5583552aa29"><div class="ttname"><a href="listabalas_8h.html#ae86f7572b30c28753f56e5583552aa29">Lista_Balasgenera</a></div><div class="ttdeci">Listabalas Lista_Balasgenera()</div><div class="ttdoc">Crea una lista vacia a la que se le pueden ir insertando campos. </div><div class="ttdef"><b>Definition:</b> listabalas.c:12</div></div>
+<div class="ttc" id="struct_listabalas_rep_html"><div class="ttname"><a href="struct_listabalas_rep.html">ListabalasRep</a></div><div class="ttdef"><b>Definition:</b> listabalas.c:7</div></div>
+<div class="ttc" id="listabalas_8h_html_aa883123426c6686479a7d59831a1a6ea"><div class="ttname"><a href="listabalas_8h.html#aa883123426c6686479a7d59831a1a6ea">Lista_Balaelimina</a></div><div class="ttdeci">void Lista_Balaelimina(Listabalas l)</div><div class="ttdoc">Elimina un elemento de la lista de balas. </div><div class="ttdef"><b>Definition:</b> listabalas.c:60</div></div>
+<div class="ttc" id="bala_8h_html"><div class="ttname"><a href="bala_8h.html">bala.h</a></div><div class="ttdoc">Permite genera, editar y eliminar elementos del tipo Bala. </div></div>
+<div class="ttc" id="listabalas_8h_html_a39db4de1ed0c5cb905694889ab42dea2"><div class="ttname"><a href="listabalas_8h.html#a39db4de1ed0c5cb905694889ab42dea2">Listabalas</a></div><div class="ttdeci">struct ListabalasRep * Listabalas</div><div class="ttdoc">TDA Listabalas. </div><div class="ttdef"><b>Definition:</b> listabalas.h:11</div></div>
+<div class="ttc" id="listabalas_8h_html_a78153534c06cf3b1c2fced819eb9ea66"><div class="ttname"><a href="listabalas_8h.html#a78153534c06cf3b1c2fced819eb9ea66">Mueve_Listabalas</a></div><div class="ttdeci">void Mueve_Listabalas(Listabalas l)</div><div class="ttdoc">Actualiza las posiciones de la lista de balas. Recomendable aplicar antes de dibujar la lista...</div><div class="ttdef"><b>Definition:</b> listabalas.c:76</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 16 de Mayo de 2017 15:01:15 para Kind of... Asteroids? por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

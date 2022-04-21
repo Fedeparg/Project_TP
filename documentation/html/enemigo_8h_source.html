@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kind of... Asteroids?: Fichero Fuente enemigo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kind of... Asteroids?
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">enemigo.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="enemigo_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ENEMIGO_H_INCLUDED</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define ENEMIGO_H_INCLUDED</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="enemigo_8h.html#ab1646722bbee24d6f7a02529d97efea5">   10</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_enemigo_rep.html">EnemigoRep</a> *<a class="code" href="enemigo_8h.html#ab1646722bbee24d6f7a02529d97efea5">Enemigo</a>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;Enemigo <a class="code" href="enemigo_8h.html#a72c409e8905ea85968706c395c38614e">Enemigo_Genera</a> (<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> r);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">void</span> <a class="code" href="enemigo_8h.html#a3f40214f3424274c3336208c812c3b20">Enemigo_Dibuja</a> (Enemigo e);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> <a class="code" href="enemigo_8h.html#aa3845d650cef84cb3dc496c6580ecb2b">Enemigo_Libera</a> (Enemigo e);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">void</span> <a class="code" href="enemigo_8h.html#a40f2760847a11661574e0b7b3fb79841">Enemigo_Actualiza</a> (Enemigo e);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">int</span> <a class="code" href="enemigo_8h.html#a0dab194ea63495f286d1878d5ca40a15">Enemigo_getx</a> (Enemigo e);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">int</span> <a class="code" href="enemigo_8h.html#a3e5c56d94a5c873c4499edfc04775036">Enemigo_gety</a> (Enemigo e);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">int</span> <a class="code" href="enemigo_8h.html#a7bb4a707980632cdbac13719274ca782">Enemigo_getr</a> (Enemigo e);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif // ENEMIGO_H_INCLUDED</span></div><div class="ttc" id="enemigo_8h_html_a3f40214f3424274c3336208c812c3b20"><div class="ttname"><a href="enemigo_8h.html#a3f40214f3424274c3336208c812c3b20">Enemigo_Dibuja</a></div><div class="ttdeci">void Enemigo_Dibuja(Enemigo e)</div><div class="ttdoc">Dibuja un elemento del tipo Enemigo en pantalla. </div><div class="ttdef"><b>Definition:</b> enemigo.c:27</div></div>
+<div class="ttc" id="enemigo_8h_html_ab1646722bbee24d6f7a02529d97efea5"><div class="ttname"><a href="enemigo_8h.html#ab1646722bbee24d6f7a02529d97efea5">Enemigo</a></div><div class="ttdeci">struct EnemigoRep * Enemigo</div><div class="ttdoc">TDA Enemigo. </div><div class="ttdef"><b>Definition:</b> enemigo.h:10</div></div>
+<div class="ttc" id="enemigo_8h_html_a40f2760847a11661574e0b7b3fb79841"><div class="ttname"><a href="enemigo_8h.html#a40f2760847a11661574e0b7b3fb79841">Enemigo_Actualiza</a></div><div class="ttdeci">void Enemigo_Actualiza(Enemigo e)</div><div class="ttdoc">Actualiza la posicion del elemento del tipo Enemigo. </div><div class="ttdef"><b>Definition:</b> enemigo.c:37</div></div>
+<div class="ttc" id="enemigo_8h_html_a3e5c56d94a5c873c4499edfc04775036"><div class="ttname"><a href="enemigo_8h.html#a3e5c56d94a5c873c4499edfc04775036">Enemigo_gety</a></div><div class="ttdeci">int Enemigo_gety(Enemigo e)</div><div class="ttdoc">Devuelve la posicion en el eje y de un elemento del tipo Enemigo. </div><div class="ttdef"><b>Definition:</b> enemigo.c:50</div></div>
+<div class="ttc" id="enemigo_8h_html_aa3845d650cef84cb3dc496c6580ecb2b"><div class="ttname"><a href="enemigo_8h.html#aa3845d650cef84cb3dc496c6580ecb2b">Enemigo_Libera</a></div><div class="ttdeci">void Enemigo_Libera(Enemigo e)</div><div class="ttdoc">Libera la memoria asignada a un elemento del tipo Enemigo. </div><div class="ttdef"><b>Definition:</b> enemigo.c:33</div></div>
+<div class="ttc" id="enemigo_8h_html_a72c409e8905ea85968706c395c38614e"><div class="ttname"><a href="enemigo_8h.html#a72c409e8905ea85968706c395c38614e">Enemigo_Genera</a></div><div class="ttdeci">Enemigo Enemigo_Genera(int x, int y, int r)</div><div class="ttdoc">Genera un elemento del tipo Enemigo. </div><div class="ttdef"><b>Definition:</b> enemigo.c:17</div></div>
+<div class="ttc" id="struct_enemigo_rep_html"><div class="ttname"><a href="struct_enemigo_rep.html">EnemigoRep</a></div><div class="ttdef"><b>Definition:</b> enemigo.c:8</div></div>
+<div class="ttc" id="enemigo_8h_html_a0dab194ea63495f286d1878d5ca40a15"><div class="ttname"><a href="enemigo_8h.html#a0dab194ea63495f286d1878d5ca40a15">Enemigo_getx</a></div><div class="ttdeci">int Enemigo_getx(Enemigo e)</div><div class="ttdoc">Devuelve la posicion en el eje x de un elemento del tipo Enemigo. </div><div class="ttdef"><b>Definition:</b> enemigo.c:46</div></div>
+<div class="ttc" id="enemigo_8h_html_a7bb4a707980632cdbac13719274ca782"><div class="ttname"><a href="enemigo_8h.html#a7bb4a707980632cdbac13719274ca782">Enemigo_getr</a></div><div class="ttdeci">int Enemigo_getr(Enemigo e)</div><div class="ttdoc">Devuelve el radio de un elemento del tipo Enemigo. </div><div class="ttdef"><b>Definition:</b> enemigo.c:54</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 16 de Mayo de 2017 15:01:15 para Kind of... Asteroids? por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

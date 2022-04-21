@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1494271525 source:c:\users\fedespito\desktop\tpproject\tpproject\project tp\bala.c
+	"bala.h"
+	"Pantalla.h"
+	<stdlib.h>
+	<math.h>
+
+1494266402 c:\users\fedespito\desktop\tpproject\tpproject\project tp\bala.h
+	"Pantalla.h"
+
+1486631552 c:\users\fedespito\desktop\tpproject\tpproject\project tp\pantalla.h
+	"SDL2/SDL.h"
+
+1494273730 source:c:\users\fedespito\desktop\tpproject\tpproject\project tp\listabalas.c
+	<stdio.h>
+	<stdlib.h>
+	"bala.h"
+	"listabalas.h"
+
+1493831197 c:\users\fedespito\desktop\tpproject\tpproject\project tp\listabalas.h
+
+1494344770 source:c:\users\fedespito\desktop\tpproject\tpproject\project tp\main.c
+	"Pantalla.h"
+	"bala.h"
+	<stdio.h>
+	"personaje.h"
+	"listabalas.h"
+
+1493756342 c:\users\fedespito\desktop\tpproject\tpproject\project tp\personaje.h
+	"Pantalla.h"
+
+1491666068 source:c:\users\fedespito\desktop\tpproject\tpproject\project tp\pantalla.c
+	"Pantalla.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<math.h>
+
+1493898543 source:c:\users\fedespito\desktop\tpproject\tpproject\project tp\personaje.c
+	"personaje.h"
+	"Pantalla.h"
+	"stdlib.h"
+
+1494453729 source:c:\users\fedespito\desktop\proyecto tp\bala.c
+	"bala.h"
+	"Pantalla.h"
+	<math.h>
+	<stdlib.h>
+
+1494845759 c:\users\fedespito\desktop\proyecto tp\bala.h
+	"Pantalla.h"
+
+1494344835 c:\users\fedespito\desktop\proyecto tp\pantalla.h
+	"SDL2/SDL.h"
+
+1494696607 source:c:\users\fedespito\desktop\proyecto tp\listabalas.c
+	<stdio.h>
+	<stdlib.h>
+	"bala.h"
+	"listabalas.h"
+	"Pantalla.h"
+
+1494847312 c:\users\fedespito\desktop\proyecto tp\listabalas.h
+	"bala.h"
+
+1494851735 source:c:\users\fedespito\desktop\proyecto tp\main.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	"Pantalla.h"
+	"bala.h"
+	"personaje.h"
+	"listabalas.h"
+	"listaenemigos.h"
+	"enemigo.h"
+	"colisiones.h"
+
+1494846528 c:\users\fedespito\desktop\proyecto tp\personaje.h
+
+1494344835 source:c:\users\fedespito\desktop\proyecto tp\pantalla.c
+	"Pantalla.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<math.h>
+
+1494608702 source:c:\users\fedespito\desktop\proyecto tp\personaje.c
+	"personaje.h"
+	"Pantalla.h"
+	<stdlib.h>
+	<stdio.h>
+
+1494847310 c:\users\fedespito\desktop\proyecto tp\listaenemigos.h
+	"enemigo.h"
+
+1494847590 c:\users\fedespito\desktop\proyecto tp\enemigo.h
+
+1494753962 source:c:\users\fedespito\desktop\proyecto tp\listaenemigos.c
+	<stdlib.h>
+	"listaenemigos.h"
+	"enemigo.h"
+
+1494503961 source:c:\users\fedespito\desktop\proyecto tp\enemigo.c
+	<stdlib.h>
+	"enemigo.h"
+	<time.h>
+	"Pantalla.h"
+
+1494754409 source:c:\users\fedespito\desktop\proyecto tp\colisiones.c
+	"colisiones.h"
+	<math.h>
+	"bala.h"
+	"enemigo.h"
+	"listabalas.h"
+	"listaenemigos.h"
+	"personaje.h"
+
+1494848193 c:\users\fedespito\desktop\proyecto tp\colisiones.h
+	"bala.h"
+	"enemigo.h"
+	"listabalas.h"
+	"listaenemigos.h"
+	"personaje.h"
+

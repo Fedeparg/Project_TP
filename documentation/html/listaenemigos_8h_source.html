@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kind of... Asteroids?: Fichero Fuente listaenemigos.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kind of... Asteroids?
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">listaenemigos.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="listaenemigos_8h.html">Ir a la documentaciÃ³n de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef LISTAENEMIGOS_H_INCLUDED</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define LISTAENEMIGOS_H_INCLUDED</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="enemigo_8h.html">enemigo.h</a>&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="listaenemigos_8h.html#a3ae6d72aa3c74b02ae0d4946e567f4c5">   11</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_listaenemigos_rep.html">ListaenemigosRep</a> *<a class="code" href="listaenemigos_8h.html#a3ae6d72aa3c74b02ae0d4946e567f4c5">Listaenemigos</a>;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;Listaenemigos <a class="code" href="listaenemigos_8h.html#a228731f6fa44ee5166b9eb4e20491901">Lista_Enemigosgenera</a>(<span class="keywordtype">int</span> n);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listaenemigos_8h.html#ac36c6aa34e447b6bcc8528cd848cda22">Lista_Enemilibera</a> (Listaenemigos l);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listaenemigos_8h.html#a4351c8476f91ce3df8ee3d4467678c15">Lista_Enemigoinserta</a> (Listaenemigos l, <a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listaenemigos_8h.html#a3b6b7be7b1cb22825b87107eaaacbfec">Lista_Enemigoelimina</a> (Listaenemigos l, <span class="keywordtype">int</span> i);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listaenemigos_8h.html#abe7e10699d1d5f2ef91fe61e180df6bb">Lista_Enemigosdibuja</a> (Listaenemigos l);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> <a class="code" href="listaenemigos_8h.html#ae6ed25501cc9ecb5c911a55dba667cc7">Lista_Enemigosmueve</a> (Listaenemigos l);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<a class="code" href="struct_enemigo_rep.html">Enemigo</a> <a class="code" href="listaenemigos_8h.html#ac0b33b6e7de4b076ebdd7fdf77848ac4">Lista_Getenemigo</a> (Listaenemigos l, <span class="keywordtype">int</span> n);</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keywordtype">int</span> <a class="code" href="listaenemigos_8h.html#ae8c48725121398e1241bd109f3bc2206">Lista_GetenemigoN</a> (Listaenemigos l);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif // LISTAENEMIGOS_H_INCLUDED</span></div><div class="ttc" id="listaenemigos_8h_html_a3ae6d72aa3c74b02ae0d4946e567f4c5"><div class="ttname"><a href="listaenemigos_8h.html#a3ae6d72aa3c74b02ae0d4946e567f4c5">Listaenemigos</a></div><div class="ttdeci">struct ListaenemigosRep * Listaenemigos</div><div class="ttdoc">TDA Listaenemigos. </div><div class="ttdef"><b>Definition:</b> listaenemigos.h:11</div></div>
+<div class="ttc" id="listaenemigos_8h_html_a228731f6fa44ee5166b9eb4e20491901"><div class="ttname"><a href="listaenemigos_8h.html#a228731f6fa44ee5166b9eb4e20491901">Lista_Enemigosgenera</a></div><div class="ttdeci">Listaenemigos Lista_Enemigosgenera(int n)</div><div class="ttdoc">Crea una lista vacia a la que se le pueden ir insertando campos. </div><div class="ttdef"><b>Definition:</b> listaenemigos.c:11</div></div>
+<div class="ttc" id="listaenemigos_8h_html_ac36c6aa34e447b6bcc8528cd848cda22"><div class="ttname"><a href="listaenemigos_8h.html#ac36c6aa34e447b6bcc8528cd848cda22">Lista_Enemilibera</a></div><div class="ttdeci">void Lista_Enemilibera(Listaenemigos l)</div><div class="ttdoc">Libera la memoria reservada para los enemigos. </div></div>
+<div class="ttc" id="listaenemigos_8h_html_ac0b33b6e7de4b076ebdd7fdf77848ac4"><div class="ttname"><a href="listaenemigos_8h.html#ac0b33b6e7de4b076ebdd7fdf77848ac4">Lista_Getenemigo</a></div><div class="ttdeci">Enemigo Lista_Getenemigo(Listaenemigos l, int n)</div><div class="ttdoc">Devuelve el elemento Enemigo de una posición concreta de la lista. </div><div class="ttdef"><b>Definition:</b> listaenemigos.c:61</div></div>
+<div class="ttc" id="listaenemigos_8h_html_ae6ed25501cc9ecb5c911a55dba667cc7"><div class="ttname"><a href="listaenemigos_8h.html#ae6ed25501cc9ecb5c911a55dba667cc7">Lista_Enemigosmueve</a></div><div class="ttdeci">void Lista_Enemigosmueve(Listaenemigos l)</div><div class="ttdoc">Actualiza las posiciones en pantalla de los elementos en la lista de enemigos. Recomendable aplicar a...</div><div class="ttdef"><b>Definition:</b> listaenemigos.c:54</div></div>
+<div class="ttc" id="struct_enemigo_rep_html"><div class="ttname"><a href="struct_enemigo_rep.html">EnemigoRep</a></div><div class="ttdef"><b>Definition:</b> enemigo.c:8</div></div>
+<div class="ttc" id="listaenemigos_8h_html_ae8c48725121398e1241bd109f3bc2206"><div class="ttname"><a href="listaenemigos_8h.html#ae8c48725121398e1241bd109f3bc2206">Lista_GetenemigoN</a></div><div class="ttdeci">int Lista_GetenemigoN(Listaenemigos l)</div><div class="ttdoc">Obtiene la posición en la lista de un enemigo concreto y la devuelve. </div><div class="ttdef"><b>Definition:</b> listaenemigos.c:65</div></div>
+<div class="ttc" id="enemigo_8h_html"><div class="ttname"><a href="enemigo_8h.html">enemigo.h</a></div><div class="ttdoc">Permite genera, editar y eliminar elementos del tipo Enemigo. </div></div>
+<div class="ttc" id="struct_listaenemigos_rep_html"><div class="ttname"><a href="struct_listaenemigos_rep.html">ListaenemigosRep</a></div><div class="ttdef"><b>Definition:</b> listaenemigos.c:5</div></div>
+<div class="ttc" id="listaenemigos_8h_html_abe7e10699d1d5f2ef91fe61e180df6bb"><div class="ttname"><a href="listaenemigos_8h.html#abe7e10699d1d5f2ef91fe61e180df6bb">Lista_Enemigosdibuja</a></div><div class="ttdeci">void Lista_Enemigosdibuja(Listaenemigos l)</div><div class="ttdoc">Dibuja la lista de enemigos en la pantalla. </div><div class="ttdef"><b>Definition:</b> listaenemigos.c:47</div></div>
+<div class="ttc" id="listaenemigos_8h_html_a3b6b7be7b1cb22825b87107eaaacbfec"><div class="ttname"><a href="listaenemigos_8h.html#a3b6b7be7b1cb22825b87107eaaacbfec">Lista_Enemigoelimina</a></div><div class="ttdeci">void Lista_Enemigoelimina(Listaenemigos l, int i)</div><div class="ttdoc">Elimina un elemento de la lista de enemigos. </div><div class="ttdef"><b>Definition:</b> listaenemigos.c:39</div></div>
+<div class="ttc" id="listaenemigos_8h_html_a4351c8476f91ce3df8ee3d4467678c15"><div class="ttname"><a href="listaenemigos_8h.html#a4351c8476f91ce3df8ee3d4467678c15">Lista_Enemigoinserta</a></div><div class="ttdeci">void Lista_Enemigoinserta(Listaenemigos l, Enemigo e)</div><div class="ttdoc">Inserta un elemento en la lista. </div><div class="ttdef"><b>Definition:</b> listaenemigos.c:31</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 16 de Mayo de 2017 15:01:15 para Kind of... Asteroids? por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

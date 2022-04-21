@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kind of... Asteroids?: Fichero Fuente bala.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kind of... Asteroids?
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">bala.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="bala_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef BALA_H_INCLUDED</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define BALA_H_INCLUDED</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;Pantalla.h&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="bala_8h.html#a0033b7344a8d08a8e758495a27454943">   11</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_bala_rep.html">BalaRep</a> *<a class="code" href="bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a>;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;Bala <a class="code" href="bala_8h.html#a5a92ae8ed1ac5a6e66c42305b0cf1dd0">Bala_Genera</a> (<span class="keywordtype">int</span> ox, <span class="keywordtype">int</span> oy, <span class="keywordtype">int</span> dx, <span class="keywordtype">int</span> dy, <span class="keywordtype">int</span> r);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="bala_8h.html#ab691b956127c28c564eb72db43f4166a">Bala_Dibuja</a> (Bala b);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> <a class="code" href="bala_8h.html#ab07df0af90766cb1566a57139456b881">Bala_Actualiza</a> (Bala b);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> <a class="code" href="bala_8h.html#ac7d0a8d189b141b5bf3cc62a684b3ea6">Bala_Libera</a> (Bala b);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">int</span> <a class="code" href="bala_8h.html#a0ff35edad5bbd5e8b817df967cf6a4c5">Bala_getx</a>(Bala b);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">int</span> <a class="code" href="bala_8h.html#a24fcf1cc2009f3663516614f73b9772e">Bala_gety</a>(Bala b);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keywordtype">int</span> <a class="code" href="bala_8h.html#a07fe588badc0604d5600eb850503f57a">Bala_getr</a>(Bala b);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif // BALA_H_INCLUDED</span></div><div class="ttc" id="bala_8h_html_a24fcf1cc2009f3663516614f73b9772e"><div class="ttname"><a href="bala_8h.html#a24fcf1cc2009f3663516614f73b9772e">Bala_gety</a></div><div class="ttdeci">int Bala_gety(Bala b)</div><div class="ttdoc">Devuelve la posicion en el eje y de un elemento del tipo Bala. </div><div class="ttdef"><b>Definition:</b> bala.c:45</div></div>
+<div class="ttc" id="bala_8h_html_a5a92ae8ed1ac5a6e66c42305b0cf1dd0"><div class="ttname"><a href="bala_8h.html#a5a92ae8ed1ac5a6e66c42305b0cf1dd0">Bala_Genera</a></div><div class="ttdeci">Bala Bala_Genera(int ox, int oy, int dx, int dy, int r)</div><div class="ttdoc">Genera un elemento del tipo Bala. </div><div class="ttdef"><b>Definition:</b> bala.c:14</div></div>
+<div class="ttc" id="struct_bala_rep_html"><div class="ttname"><a href="struct_bala_rep.html">BalaRep</a></div><div class="ttdef"><b>Definition:</b> bala.c:8</div></div>
+<div class="ttc" id="bala_8h_html_ac7d0a8d189b141b5bf3cc62a684b3ea6"><div class="ttname"><a href="bala_8h.html#ac7d0a8d189b141b5bf3cc62a684b3ea6">Bala_Libera</a></div><div class="ttdeci">void Bala_Libera(Bala b)</div><div class="ttdoc">Libera la memoria asignada a un elemento del tipo Bala. </div><div class="ttdef"><b>Definition:</b> bala.c:37</div></div>
+<div class="ttc" id="bala_8h_html_a07fe588badc0604d5600eb850503f57a"><div class="ttname"><a href="bala_8h.html#a07fe588badc0604d5600eb850503f57a">Bala_getr</a></div><div class="ttdeci">int Bala_getr(Bala b)</div><div class="ttdoc">Devuelve el radio de un elemento del tipo Bala. </div><div class="ttdef"><b>Definition:</b> bala.c:49</div></div>
+<div class="ttc" id="bala_8h_html_ab691b956127c28c564eb72db43f4166a"><div class="ttname"><a href="bala_8h.html#ab691b956127c28c564eb72db43f4166a">Bala_Dibuja</a></div><div class="ttdeci">void Bala_Dibuja(Bala b)</div><div class="ttdoc">Dibuja un elemento del tipo Bala en pantalla. </div><div class="ttdef"><b>Definition:</b> bala.c:31</div></div>
+<div class="ttc" id="bala_8h_html_ab07df0af90766cb1566a57139456b881"><div class="ttname"><a href="bala_8h.html#ab07df0af90766cb1566a57139456b881">Bala_Actualiza</a></div><div class="ttdeci">void Bala_Actualiza(Bala b)</div><div class="ttdoc">Actualiza la posicion del elemento del tipo Bala. </div><div class="ttdef"><b>Definition:</b> bala.c:26</div></div>
+<div class="ttc" id="bala_8h_html_a0033b7344a8d08a8e758495a27454943"><div class="ttname"><a href="bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a></div><div class="ttdeci">struct BalaRep * Bala</div><div class="ttdoc">TDA Bala. </div><div class="ttdef"><b>Definition:</b> bala.h:11</div></div>
+<div class="ttc" id="bala_8h_html_a0ff35edad5bbd5e8b817df967cf6a4c5"><div class="ttname"><a href="bala_8h.html#a0ff35edad5bbd5e8b817df967cf6a4c5">Bala_getx</a></div><div class="ttdeci">int Bala_getx(Bala b)</div><div class="ttdoc">Devuelve la posicion en el eje x de un elemento del tipo Bala. </div><div class="ttdef"><b>Definition:</b> bala.c:41</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 16 de Mayo de 2017 15:01:15 para Kind of... Asteroids? por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
